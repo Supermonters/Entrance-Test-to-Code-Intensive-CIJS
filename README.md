@@ -1,1 +1,1 @@
-# Test-u-v-o-CI
+# Entrance Test to Code Intensive (CIJS)
