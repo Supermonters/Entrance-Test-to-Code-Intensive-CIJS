@@ -13,29 +13,23 @@
 //             minhduc.push(inputArray[i]);
 //         }
 //     }
-//     console.log(minhduc); 
+//     return(minhduc); 
 // }
 // allLongestStrings(["BINH", "HUNG", "PHUOC", "CAO", "KHANH"]);
 
 // Bài 2
-// let team1 = []
-// let team2 = []
-// function myFunction(array) {
-//     let sum = 0
-//     array.forEach(e => {
-//         sum += e;
-//     })
-//     return sum
-// }
+
+// let team1 = 0
+// let team2 = 0
 // function alternatingSums(a) {
 //     for (let i = 1; i <= a.length; i++) {
 //         if (i % 2 == 0) {
-//             team2.push(a[i - 1])
+//             team2  += a[i-1]
 //         } else {
-//             team1.push(a[i - 1])
+//             team1 += a[i-1]
 //         }
 //     }
-//     console.log(myFunction(team1), myFunction(team2));
+//     return([team1,team2]);
 // }
 // alternatingSums([60, 40, 55, 75, 64])
 
